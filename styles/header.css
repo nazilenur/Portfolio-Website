@@ -1,0 +1,68 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  background:linear-gradient(to bottom,#f8bfc4,#ff6f84);
+  z-index: 1000;
+  /*border-bottom-width:1px ;*/
+  border-bottom-color: rgb(231, 76, 112);
+  /*border-bottom-style: solid;*/
+  border: none;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.ig-menu{
+  height: 30px;
+  margin-left: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.ig-name{
+  color: rgb(243, 227, 227);
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 0 0 200px;
+  max-width: 600px;
+  
+}
+.butterfly-logo{
+  width:200px;
+  position:relative;
+  justify-content: center;
+
+}
+
+.right-section{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-right: 20px;
+  right: 0;
+  flex-shrink: 0; /*<!--here is important shrink-->*/
+}
+
+.user-channel-picture{
+  height: 70px;
+  border-radius: 35px;
+  margin-left: 20px;
+  margin-right: 50px;
+  cursor: pointer;
+}

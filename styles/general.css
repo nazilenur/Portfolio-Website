@@ -1,0 +1,23 @@
+body{
+  font-family: roboto,arial;/* we used here inheritance*/
+  padding:80px 50px 0 100px;
+  /*background: linear-gradient(to right,#dd7ec3, #8caed1);*/
+  height: 2000px;
+  overflow-x: hidden;
+   background: linear-gradient(to bottom, #f8bfc4, #f15068);
+   color: #c0395f;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+  font-family: Roboto;
+}
+a{
+  color: #d94e6a;
+  text-decoration: none;
+}
+   
+@media (min-width: 2000.1px) {
+  body {
+    margin-left: 168px;
+  }
+}

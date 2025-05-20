@@ -1,0 +1,41 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 100px;
+  bottom:0;
+  width: 100px;
+  background-color:#f8bfc4;
+}
+
+.sidebar-link{
+  height:80px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+
+.sidebar-link:hover{
+  background-color: rgb(250, 176, 185);
+}
+
+.sidebar-link img{
+  height: 40px;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+.sidebar-link img.profile-photo{
+  border-radius: 20px;
+}
+
+.sidebar-link div{
+  font-family: roboto,arial;
+  font-size: 14px;
+  padding-top: 8px;
+}
